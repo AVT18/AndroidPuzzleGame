@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dragosholban.front"
+
+    android:orientation="vertical"
+    android:background="@drawable/frontpage"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a basic puzzle game android application which splits an image into multiple parts and shuffles the pieces for the user to reassemble. "
+        android:textAlignment="center"
+android:layout_marginRight="40dp"
+android:layout_marginLeft="40dp"
+
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button"
+        android:text="Tap here\nto see what's inside"
+        android:textSize="21dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="130dp"/>
+
+
+</LinearLayout>
